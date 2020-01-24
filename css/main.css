@@ -1,0 +1,48 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 700px;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    margin: 20px 5px 20px 5px;
+    background-color: pink;
+    justify-content: center;
+
+  }
+
+  .flex-container > div {
+    width: 250px;
+    margin: 10px;
+    box-align: center;
+
+  }
+
+h1 {
+    margin: 20px 5px 20px 5px;
+    text-align: center;
+    font-size: 6vw;
+    font-family: 'Roboto', sans-serif;
+    color: black
+    }
+
+a {
+    color: slategray;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+figure {
+    color: slategray;
+    text-align: center;
+    
+}
